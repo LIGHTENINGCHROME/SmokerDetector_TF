@@ -107,3 +107,12 @@ Kaggle Smoking Classification Dataset**
        pip install -r requirements.txt
 
 <hr/>
+
+# **🔗 Link To Kaggle Notebook and Custom Dataset**
+
+**Kaggle Notebook - Smoker-Detector (https://www.kaggle.com/code/adityadiwan2005/smoker-detector)**
+
+**Custom Dataset - Smoking Images (https://www.kaggle.com/datasets/adityadiwan2005/smoking2/data)**
+
+
+<hr/>
