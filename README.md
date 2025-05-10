@@ -1,86 +1,109 @@
-# 🚭SmokerDetector_TF
-This project is a deep learning-based solution to detect smoking activity in real-time video feeds. The goal is to assist in the enforcement of public smoking bans by identifying individuals smoking in public areas using a trained image classification model.
+[![Python](https://img.shields.io/badge/Python-black?logo=python&logoColor=white)](https://python.org/)
+[![Tensorflow](https://img.shields.io/badge/Tensorflow-black?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-black)](https://www.kaggle.com/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-black?logo=opencv&logoColor=white)](https://opencv.org/)
 
-# 🧠 Overview
-A custom convolutional neural network (CNN) was implemented using TensorFlow and Keras, featuring multiple dropout layers and L2 regularization to improve generalization and prevent overfitting. The system processes input images or frames to classify whether the person is smoking or not.
 
-# 📂 Datasets
-Kaggle Smoking Classification Dataset
+<div align="center">
+<hr/>
 
-DataMendeley Smoking Images Dataset
+# _::::[ SMOKER ]<BR>[ DETECTOR ]::::::::_
 
-Both datasets were preprocessed and filtered manually to enhance training data quality.
+</div>
 
-# ⚙️ Model Architecture
-Built with Conv2D layers for spatial feature extraction.
+<hr/>
 
-Dropout layers added at different depths to reduce overfitting.
+# **🚭SmokerDetector_TF**
+**This project is a deep learning-based solution to detect smoking activity in real-time video feeds. The goal is to assist in the enforcement of public smoking bans by identifying individuals smoking in public areas using a trained image classification model.**
 
-L2 regularization applied to kernels for penalizing complexity.
+<hr/>
 
-Adam optimizer and binary_crossentropy loss used for training.
+# **🧠 Overview**
+A custom convolutional neural network (CNN) was implemented using TensorFlow and Keras, featuring multiple dropout layers and L2 regularization to improve generalization and prevent overfitting. The system processes input images or frames to classify whether the person is smoking or not.**
 
-# 🧪 Training Strategy
-Data Augmentation for robustness.
+<hr/>
 
-Early stopping and ReduceLROnPlateau for efficient training.
+# **📂 Datasets**
+Kaggle Smoking Classification Dataset**
 
-Weighted class training to manage class imbalance.
+**DataMendeley Smoking Images Dataset**
 
-# 🧠 Prediction Workflow
-The model takes input images or video frames and predicts the smoking activity. For deployment:
+**Both datasets were preprocessed and filtered manually to enhance training data quality.**
 
-OpenCV is used for real-time video feed processing.
+<hr/>
 
-Optimized for systems with GPU for faster inference.
+# **⚙️ Model Architecture**
+**Built with Conv2D layers for spatial feature extraction.**
 
-# 🚀 Deployment
-This system is intended to be deployed in public surveillance setups (e.g., metro stations, malls, public transport) to identify smokers. Cameras are already installed in many areas, reducing implementation cost — only backend integration is required.
+**Dropout layers added at different depths to reduce overfitting.**
 
-🔔 Authorities can be alerted automatically based on model predictions.
-# 📈 Future Scope
-Integrate with cloud-based APIs for large-scale city surveillance.
+**L2 regularization applied to kernels for penalizing complexity.**
 
-Improve accuracy with more diverse datasets.
+**Adam optimizer and binary_crossentropy loss used for training.**
 
-Add feature to track individuals violating smoking rules multiple times.
+<hr/>
 
-Develop a lightweight model for deployment on edge devices (like Raspberry Pi).
+# **🧪 Training Strategy**
+**Data Augmentation for robustness.**
 
-Provide heatmaps to show high-smoking zones for strategic law enforcement.
+**Early stopping and ReduceLROnPlateau for efficient training.**
 
-# 🧾 References
-TensorFlow
+**Weighted class training to manage class imbalance.**
 
-Keras
+<hr/>
 
-OpenCV
+# **🧠 Prediction Workflow**
+**The model takes input images or video frames and predicts the smoking activity. For deployment:**
 
-Kaggle Dataset - Smoking Detection
+**OpenCV is used for real-time video feed processing.**
 
-DataMendeley Dataset - Smoking Images
+**Optimized for systems with GPU for faster inference.**
 
-All libraries used are listed in requirements.txt.
+<hr/>
 
-# 💻 Setup Instructions
-1. Clone the Repository
-bash
-Copy code
-git clone https://github.com/yourusername/smoking-detection-system.git
-cd smoking-detection-system
-2. Install Dependencies
-bash
-Copy code
-pip install -r requirements.txt
-3. Run Training (if needed)
-bash
-Copy code
-python train.py
-4. Run Real-Time Detection
-bash
-Copy code
-python detect_smoking.py
-🔗 Project Link
-🔗 GitHub Project Repository
+# **🚀 Deployment**
+**This system is intended to be deployed in public surveillance setups (e.g., metro stations, malls, public transport) to identify smokers. Cameras are already installed in many areas, reducing implementation cost — only backend integration is required.**
 
-Let me know if you want a version with badges, license, or contribution guidelines!
+**🔔 Authorities can be alerted automatically based on model predictions.**
+
+<hr/>
+
+# **📈 Future Scope**
+**Integrate with cloud-based APIs for large-scale city surveillance.**
+
+**Improve accuracy with more diverse datasets.**
+
+**Add feature to track individuals violating smoking rules multiple times.**
+
+**Develop a lightweight model for deployment on edge devices (like Raspberry Pi).**
+
+**Provide heatmaps to show high-smoking zones for strategic law enforcement.**
+
+<hr/>
+
+# **🧾 References**
+**TensorFlow (https://www.tensorflow.org/)**
+
+**Keras (https://keras.io/)**
+
+**OpenCV (https://opencv.org/)**
+
+**Kaggle Dataset - Smoking Detection (https://www.kaggle.com/datasets/sujaykapadnis/smoking)**
+
+**DataMendeley Dataset - Smoking Images (https://data.mendeley.com/datasets/j45dj8bgfc/1)**
+
+**All libraries used are listed in requirements.txt.**
+
+<hr/>
+
+# **💻 Setup Instructions**
+**1. Clone the Repository**
+```git clone https://github.com/yourusername/smoking-detection-system.git```
+
+       cd smoking-detection-system
+   
+**3. Install Dependencies**
+   
+       pip install -r requirements.txt
+
+<hr/>
